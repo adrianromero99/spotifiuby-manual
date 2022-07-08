@@ -11,14 +11,20 @@
 - [Perfil](#profile)
 - [Chat](#chat)
 - [Puntuar](#puntuar)
+- [Suscripciones](#suscripciones)
 
 <a name="login"/>
 
-## Login 
+## Login
+Lo primero que se necesita para poder acceder a la aplicación es una cuenta de tipo listener o de tipo artista. Si no posee una cuenta debe hacer un signup como se indica en la siguiente sección.
+
+Existe otra forma de loggearse a la aplicación que es mediante la utilización de una cuenta de google. 
 
 <a name="signup"/>
 
 ## Signup
+
+
 
 <a name="search"/>
 
@@ -51,3 +57,7 @@
 <a name="puntuar"/>
 
 ## Puntuar
+
+<a name="suscripciones"/>
+
+## Suscripciones
