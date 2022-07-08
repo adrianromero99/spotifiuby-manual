@@ -49,15 +49,19 @@ Al seleccionar un artista se redireccionará al perfil del artista.
 
 ## Canciones
 
-Los artistas tienen la posibilidad de cargar una canción 
+Los artistas tienen la posibilidad de cargar una canción. Para ello tienen que adjuntar un archivo con la canción, un nombre, una descripción y seleccionar el género. Además se puede marcar a la canción como una canción de contenido exclusivo lo cual solamente permite a los usuarios con suscripción acceder a ella.
 
 <a name="album"/>
 
 ## Albums
 
+Los artistas tienen la posibilidad de crear un album. Para cargar un album se deben seleccionar las canciones del artista que componen el album. Tambien hay que agregar un nombre, descripcion y opcionalmente una imagen que identifique al album. 
+
 <a name="playlist"/>
 
 ## Playlists
+
+Todos los usuarios pueden crear una playlist para cargar las canciones favoritas 
 
 <a name="comentar"/>
 
