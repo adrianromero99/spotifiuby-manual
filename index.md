@@ -1,16 +1,14 @@
 # Spotifiuby - Manual de usuario
 
-- [¿Cómo utilizar la aplicacion móvil?](#como-utilizar)
 - [Login](#login)
 - [Signup](#signup)
 - [Busqueda](#search)
 - [Canciones](#songs)
 - [Albums](#album)
 - [Playlists](#playlist)
-- [Comentar](#comment)
+- [Comentar y puntuar](#comment)
 - [Perfil](#profile)
 - [Chat](#chat)
-- [Puntuar](#puntuar)
 - [Suscripciones](#suscripciones)
 
 <a name="login"/>
@@ -22,6 +20,8 @@ Si no posee una cuenta debe hacer un signup como se indica en la siguiente secci
 
 Existe otra forma de loggearse a la aplicación que es mediante la utilización de una cuenta de google. 
 
+![login](/imagenes/login.PNG)
+
 <a name="signup"/>
 
 ## Signup
@@ -32,6 +32,8 @@ Si usted no posee una cuenta debera crear una. Para dar de alta una cuenta se le
 - Contraseña
 - Indicar si eres o no artista
 - Generos favoritos
+
+![signup](/imagenes/signup.PNG)
 
 <a name="search"/>
 
@@ -45,17 +47,25 @@ Al seleccionar un álbum o una playlist se muestra las canciones que la componen
 
 Al seleccionar un artista se redireccionará al perfil del artista.
 
+![search](/imagenes/search.PNG)
+
+![search1](/imagenes/search1.PNG)
+
 <a name="songs"/>
 
 ## Canciones
 
 Los artistas tienen la posibilidad de cargar una canción. Para ello tienen que adjuntar un archivo con la canción, un nombre, una descripción y seleccionar el género. Además se puede marcar a la canción como una canción de contenido exclusivo lo cual solamente permite a los usuarios con suscripción acceder a ella.
 
+![upload-song](/imagenes/upload-song.PNG)
+
 <a name="album"/>
 
 ## Albums
 
 Los artistas tienen la posibilidad de crear un album. Para cargar un album se deben seleccionar las canciones del artista que componen el album. Tambien hay que agregar un nombre, descripcion y opcionalmente una imagen que identifique al album. 
+
+![create'album](/imagenes/create-album.PNG)
 
 <a name="playlist"/>
 
@@ -65,17 +75,25 @@ Todos los usuarios pueden crear una playlist con canciones. Para crear una playl
 
 Tambien se puede crear una playlist colaborativa que permite que otros usuarios cargen una cancion.
 
+![create-playlist](/imagenes/create-playlist.PNG)
+
 <a name="comment"/>
 
-## Comentar
+## Comentar y puntuar 
 
 La aplicacion permite tambien agregar comentarios a los albums. Al seleccionar un album podemos escoger comentarlo y agregar un comentario. Este comentario es unico para cada usuario. Los comentarios son publicos, es decir que otros usuarios podrán visualizar los comentarios que un album posea.
+
+Los albums se pueden puntuar también con una calificacion que varía de 1 a 5 puntos.
+
+![comment](/imagenes/comment.PNG)
 
 <a name="profile"/>
 
 ## Perfil
 
-Los artistas y listeners tienen acceso a su perfil para poder editar su información personal. Además recordar que en la sección de buscar cada usuario puede encontrar los perfiles de otros artistas.
+Los artistas y listeners tienen acceso a su perfil para poder editar su información personal. Además recordar que en la sección de buscar cada usuario puede encontrar los perfiles de otros artistas. Y tambien es aqui donde encuentra la opcion de suscribirse o desuscribirse.
+
+![comment](/imagenes/subscribe.PNG)
 
 <a name="chat"/>
 
@@ -83,11 +101,8 @@ Los artistas y listeners tienen acceso a su perfil para poder editar su informac
 
 Se dispone de la funcionalidad para poder enviar mensajes privados a otros usuarios que se encuentren en la aplicacion . Un usuario puede enviar mensajes directos a otro usuario. Estos mensajes son privados, solo los involucrados tienen acceso a la lectura de los mismos.
 
-<a name="puntuar"/>
-
-## Puntuar
-
-Los albums se pueden puntuar con una calificacion que varía de 1 a 5 puntos.
+![comment](/i
+magenes/chat.PNG)
 
 <a name="suscripciones"/>
 
