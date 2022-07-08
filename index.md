@@ -24,11 +24,24 @@ Existe otra forma de loggearse a la aplicación que es mediante la utilización 
 
 ## Signup
 
-
+Si usted no posee una cuenta debera crear una. Para dar de alta una cuenta se le solicitarán los siguientes datos:
+- Email
+- Nombre de usuario
+- Contraseña
+- Indicar si eres o no artista
+- Generos favoritos
 
 <a name="search"/>
 
 ## Busqueda
+
+Una vez en la aplicación se pueden realizar busquedas en la sección correspondiente. Al escribir se mostrarán artistas, canciones, albumes y playlists que matcheen con la información provista. 
+
+Al seleccionar una canción esta comenzará a reproducirse.
+
+Al seleccionar un álbum o una playlist se muestra las canciones que la componen.
+
+Al seleccionar un artista se redireccionará al perfil del artista.
 
 <a name="songs"/>
 
