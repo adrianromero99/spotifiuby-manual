@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+# Spotifiuby - Manual de usuario
 
-You can use the [editor on GitHub](https://github.com/adrianromero99/spotifiuby-manual/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- [¿Cómo utilizar el backoffice?](#como-utilizar)
+- [Users](#users)
+- [User profile](#user-profile)
+- [Songs](#songs)
+- [Metrics](#metrics)
+- [Metricas de usuarios](#user-metrics)
+- [Metricas de transacciones](#transaction-metrics)
+- [Metricas de canciones](#song-metrics)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a name="como-utilizar"/>
 
-### Markdown
+## ¿Cómo utilizar el backoffice?
+Para poder loggearse y acceder al backoffice de administradores es necesario contar con una cuenta formada por email y contraseña. Notar que la cuenta tiene que tener permisos de administrador.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![login](/imagenes/login.png)
 
-```markdown
-Syntax highlighted code block
+Una vez loggeado al backoffice se podrá navegar por tres secciones: 
+- Users
+- Songs
+- Metrics
 
-# Header 1
-## Header 2
-### Header 3
+El backoffice cuenta con una barra de navegación en la parte supuerior para poder navegar libremente entre las secciones anteriores.
 
-- Bulleted
-- List
+![navbar](/imagenes/navbar.PNG)
 
-1. Numbered
-2. List
+A continuación se detalla una explicación de las diferentes secciones.
 
-**Bold** and _Italic_ and `Code` text
+<a name="users"/>
 
-[Link](url) and ![Image](src)
-```
+### Users
+La seccion de usuarios lista a todos los usuarios del sistema y nos muestra la siguiente información acerca de ellos:
+- ID de usuario
+- Nombre de usuario
+- Estado: indica si el usuario está bloqueado o no
+- Acciones: permiten bloquear/desbloquear a un usuario o ir al perfil de los usuarios
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Al bloquear a un usuario les negamos el acceso a la aplicación móvil.
 
-### Jekyll Themes
+<a name="users-profile"/>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adrianromero99/spotifiuby-manual/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### User profile
+En la seccion del perfil de usuario se agrega como información adicional:
+- Suscripcion: indica si el usuario está suscripto al contenido exclusivo o no.
+- Géneros favoritos: los generos que el usuario marcó como sus favoritos.
+- Artistas favoritos: los artistas que el usuario marcó como sus favoritos.
 
-### Support or Contact
+![user-profile](/imagenes/user-profile.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<a name="songs"/>
+
+### Songs
+En la seccion de canciones se listan todas las canciones del sistema. Mostramos la siguiente informacion de las canciones:
+- ID de canción
+- Nombre
+- Autores
+- Generos
+- Duración (en segundos)
+
+Además se agregan filtros para poder encontrar las canciones que uno desee, se puede filtrar por nombre, autor o genero. 
+Los filtros de nombre y autor permiten escribir aquello que se necesite encontrar, mientras que el filtro de genero te permite elegir
+entre alguno de los generos posibles de las canciones.
+
+Notar que si alguna combinación de filtros no encuentra ninguna canción, entonces se notificará que no hay canciones que cumplan con los filtros pedidos. 
+
+<a name="metrics"/>
+
+### Metrics
+En la seccion de métricas podemos encontrar algunas de las metricas mas relevantes y gráficos para analizarlos.
+Se cuenta tanto con gráficos de torta como cón gráficos de barras. 
+
+<a name="user-metrics"/>
+
+### Métricas de usuarios
+- Cantidad de logins
+- Cantidad de logins con identidad federada
+- Cantidad de usuarios registrados
+- Cantidad de usuarios registrados con identidad federada
+- Cantidad de usuarios bloqueados
+- Recuperos de contraseña
+
+![user-metrics](/imagenes/user-metrics.png)
+
+<a name="transaction-metrics"/>
+
+### Métricas de transacciones
+- Cantidad de depósitos y de pagos
+- Monto enviado por depósitos y por pagos
+
+![transaction-metrics](/imagenes/transaction-metrics.png)
+
+<a name="songs-metrics"/>
+
+### Métricas de canciones
+- Autores con más canciones
+- Autores con más álbumes
+- Géneros con más canciones
+- Géneros con más albumes
+
+![songs-metrics](/imagenes/songs-metrics.png)
