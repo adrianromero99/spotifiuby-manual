@@ -101,8 +101,7 @@ Los artistas y listeners tienen acceso a su perfil para poder editar su informac
 
 Se dispone de la funcionalidad para poder enviar mensajes privados a otros usuarios que se encuentren en la aplicacion . Un usuario puede enviar mensajes directos a otro usuario. Estos mensajes son privados, solo los involucrados tienen acceso a la lectura de los mismos.
 
-![comment](/i
-magenes/chat.PNG)
+![comment](/imagenes/chat.PNG)
 
 <a name="suscripciones"/>
 
