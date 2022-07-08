@@ -16,7 +16,9 @@
 <a name="login"/>
 
 ## Login
-Lo primero que se necesita para poder acceder a la aplicación es una cuenta de tipo listener o de tipo artista. Si no posee una cuenta debe hacer un signup como se indica en la siguiente sección.
+Lo primero que se necesita para poder acceder a la aplicación es una cuenta de tipo listener o de tipo artista. Dependiendo del tipo de cuenta podrá realizar diferentes acciones, por ejemplo
+
+Si no posee una cuenta debe hacer un signup como se indica en la siguiente sección.
 
 Existe otra forma de loggearse a la aplicación que es mediante la utilización de una cuenta de google. 
 
@@ -46,6 +48,8 @@ Al seleccionar un artista se redireccionará al perfil del artista.
 <a name="songs"/>
 
 ## Canciones
+
+Los artistas tienen la posibilidad de cargar una canción 
 
 <a name="album"/>
 
