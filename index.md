@@ -69,18 +69,29 @@ Tambien se puede crear una playlist colaborativa que permite que otros usuarios 
 
 ## Comentar
 
+La aplicacion permite tambien agregar comentarios a los albums. Al seleccionar un album podemos escoger comentarlo y agregar un comentario. Este comentario es unico para cada usuario. Los comentarios son publicos, es decir que otros usuarios podrán visualizar los comentarios que un album posea.
+
 <a name="profile"/>
 
 ## Perfil
+
+Los artistas y listeners tienen acceso a su perfil para poder editar su información personal. Además recordar que en la sección de buscar cada usuario puede encontrar los perfiles de otros artistas.
 
 <a name="chat"/>
 
 ## Chat
 
+Un usuario puede enviar mensajes directos a otro usuario. Estos mensajes son privados, solo los involucrados tienen acceso a la lectura de los mismos. 
+
 <a name="puntuar"/>
 
 ## Puntuar
 
+Los albums se pueden puntuar con una calificacion que varía de 1 a 5 puntos.
+
 <a name="suscripciones"/>
 
 ## Suscripciones
+
+En la seccion de suscripciones permitimos a los artistas y a los listeners suscribirse. Para ello hay que pagar 0.0001 ETH lo cual se puede pagar desde una wallet que es provista.
+
