@@ -61,7 +61,9 @@ Los artistas tienen la posibilidad de crear un album. Para cargar un album se de
 
 ## Playlists
 
-Todos los usuarios pueden crear una playlist para cargar las canciones favoritas 
+Todos los usuarios pueden crear una playlist con canciones. Para crear una playlist se necesita seleccionar las canciones que se desea que forman parte de la playlist, además se necesita una descripción, un nombre y una imagen para identificar a la playlist.
+
+Tambien se puede crear una playlist colaborativa que permite que otros usuarios cargen una cancion.
 
 <a name="comentar"/>
 
