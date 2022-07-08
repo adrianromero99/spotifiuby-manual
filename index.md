@@ -4,8 +4,8 @@
 - [Login](#login)
 - [Signup](#signup)
 - [Busqueda](#search)
-- [Albums](#album)
 - [Canciones](#songs)
+- [Albums](#album)
 - [Playlists](#playlist)
 - [Comentar](#comment)
 - [Perfil](#profile)
@@ -23,6 +23,10 @@
 <a name="search"/>
 
 ## Busqueda
+
+<a name="songs"/>
+
+## Canciones
 
 <a name="album"/>
 
