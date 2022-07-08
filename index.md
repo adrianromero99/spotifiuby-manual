@@ -65,7 +65,7 @@ Todos los usuarios pueden crear una playlist con canciones. Para crear una playl
 
 Tambien se puede crear una playlist colaborativa que permite que otros usuarios cargen una cancion.
 
-<a name="comentar"/>
+<a name="comment"/>
 
 ## Comentar
 
