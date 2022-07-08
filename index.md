@@ -81,7 +81,7 @@ Los artistas y listeners tienen acceso a su perfil para poder editar su informac
 
 ## Chat
 
-Un usuario puede enviar mensajes directos a otro usuario. Estos mensajes son privados, solo los involucrados tienen acceso a la lectura de los mismos. 
+Se dispone de la funcionalidad para poder enviar mensajes privados a otros usuarios que se encuentren en la aplicacion . Un usuario puede enviar mensajes directos a otro usuario. Estos mensajes son privados, solo los involucrados tienen acceso a la lectura de los mismos.
 
 <a name="puntuar"/>
 
@@ -91,7 +91,8 @@ Los albums se pueden puntuar con una calificacion que varía de 1 a 5 puntos.
 
 <a name="suscripciones"/>
 
-## Suscripciones
+## Aporte para artistas
+Se le da la posibilidad a los usuarios de poder hacer donaciones a sus artistas favoritos. En un principio, es únicamente con un monto fijo de 0.0001 ETH que se acreditarán a la wallet que la aplicación le provee al artista
 
-En la seccion de suscripciones permitimos a los artistas y a los listeners suscribirse. Para ello hay que pagar 0.0001 ETH lo cual se puede pagar desde una wallet que es provista.
-
+## Cobros de artistas
+Se permite que los artistas puedan retirar las ganancias producidas por las suscripciones de los listeners. Para eso, nos deberan aportar la direccion de su wallet personal a la cual se le enviaran los fondos
